@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>New Wikipedia Viewer</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <head>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
+</head>
+
+<div class="container">
+  <div id="navigation">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2" id="title">
+        <h1>Wikipedia Viewer</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-3"></div>
+       <div class="col-md-1" id="random-button">
+         <a href="https://en.wikipedia.org/wiki/Special:Random">Randomize</a></div>
+      <div class="col-md-1"></div>
+      <div class="col-md-7 form-group has-feedback" id="search-form">
+        <input type="text" class="form-control" name="search" id="search" onkeypress="handle" placeholder="search enter.. ">
+      </div>
+    </div>
+  </div>
+
+  
+  <div id="divider"></div>
+  <div id="output">
+  </div>
+</div>
+  <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
