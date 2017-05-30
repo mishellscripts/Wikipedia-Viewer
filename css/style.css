@@ -1,6 +1,5 @@
 #navigation {
   position: fixed;
-  width: 80%;
   background-color: white;
   z-index: 99;
 }
@@ -17,9 +16,11 @@
   border-color: #27ae60;
   border-style: solid;
   padding: 20px;
-  width: 11%;
-  -webkit-animation-duration: 5s;
+  width: 140px;
+  -webkit-animation-duration: 10s;
   -webkit-animation-delay: 2s;
+  float: left;
+  margin-right: 20px;
 }
 
 .infinite {
@@ -44,12 +45,22 @@ h1 {
 font-size: 50px;
 }
 
+#navigation {
+  width: 100%;
+}
+
+#random-search {
+  width: 100%;
+  position: relative;
+  left: 20%;
+}
 #search:focus {
   width:50%;
   -webkit-transition:width 0.5s ease-in-out;
 }
 
 #search {
+  margin-left: 50px;
   height: 70px;
   width:30%;
   -webkit-transition:width 0.5s ease-in-out;
